@@ -24,7 +24,7 @@ Si estás buscando formas reales de marcar la diferencia en el mundo y contribui
 
 Para instalar y utilizar Eco Conexión, sigue estos pasos:
 
-1. Descarga la aplicación desde [nuestra página web]().
+1. Descarga la aplicación desde [nuestra página web](https://github.com/JDQN/Eco-Conexion.git).
 2. Instala la aplicación en tu dispositivo.
 3. Regístrate y comienza a explorar las numerosas funciones y consejos que Eco Conexión tiene para ofrecer.
 
