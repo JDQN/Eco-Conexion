@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">EcoConexion</string>
+
+    <!--    String primera pantalla-->
+    <string name="eco">Eco</string>
+    <string name="conexion">Conexión</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="bienvenido_eco_conexion">Bienvenido a EcoConexión</string>
+    <string name="eco_planeador">Eco Planeador</string>
+
+
+    <!--  String  de los botones -->
+    <string name="registrarse">Registrarse</string>
+    <string name="ingresar">Ingresar</string>
+
+
+    <!-- String formulario de registro -->
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="nombre_usuario">Nombre de Usuario:</string>
+    <string name="correo_electronico">Correo electrónico:</string>
+    <string name="password">Contraseña:</string>
+    <string name="numero_celular">Número de celular:</string>
+    <string name="direccion">Dirección:</string>
+    <string name="o_registrate_con">O registrate con</string>
+
+    <!-- String descripciones -->
+    <string name="facebook_button_description">Botón de Facebook</string>
+    <string name="google_button_description">Botón de Google</string>
+    <string name="mac_button_description">Botón de Mac</string>
+
+</resources>
