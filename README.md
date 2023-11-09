@@ -30,7 +30,7 @@ Para instalar y utilizar Eco Conexión, sigue estos pasos:
 
 ## 👥 Contribuciones
 
-¡Apreciamos tu interés en contribuir a Eco Conexión! Si deseas aportar al proyecto, por favor visita nuestro [repositorio en GitHub](https://github.com/EcoConexion) y sigue las instrucciones para colaborar.
+¡Apreciamos tu interés en contribuir a Eco Conexión! Si deseas aportar al proyecto, por favor visita nuestro [repositorio en GitHub]([https://github.com/EcoConexion](https://github.com/JDQN/Eco-Conexion.git)) y sigue las instrucciones para colaborar.
 
 ## 📧 Contacto
 
