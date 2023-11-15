@@ -27,5 +27,6 @@
     <string name="facebook_button_description">Botón de Facebook</string>
     <string name="google_button_description">Botón de Google</string>
     <string name="mac_button_description">Botón de Mac</string>
+    <string name="ya_tienes_cuenta">¿Ya tienes una cuenta? Inicia sesion ahora</string>
 
 </resources>

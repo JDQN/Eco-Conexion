@@ -69,13 +69,14 @@
             android:text="@string/ingresar"
             android:textColor="#023316"
             android:textSize="20sp"
-            app:strokeColor="#023316" />
+            app:strokeColor="#023316"
+            android:onClick="iniciarSesion"/>
     </LinearLayout>
 
 
     <!-- Aqui tenemos los dos textos -->
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/crear_cuenta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/eco"
@@ -83,21 +84,21 @@
         android:textSize="50dp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/bienvenido_ecoConexion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="20dp"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/bienvenido_ecoConexion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/conexion"
         android:textColor="@color/verde_oscuro"
         android:textSize="50dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/crear_cuenta"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
