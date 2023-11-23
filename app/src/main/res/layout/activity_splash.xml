@@ -15,6 +15,6 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:adjustViewBounds="true"
-        app:srcCompat="@drawable/splash3" />
+        app:srcCompat="@drawable/img_splash2" />
 
 </FrameLayout>

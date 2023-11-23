@@ -37,7 +37,7 @@
                 android:layout_weight="2"
                 android:background="#00023316"
                 android:scaleType="fitCenter"
-                app:srcCompat="@drawable/row_back" />
+                app:srcCompat="@drawable/icon_tablero_rowback" />
 
             <TextView
                 android:id="@+id/bienvenido_a"
@@ -69,7 +69,7 @@
                 android:background="#00FFFFFF"
                 android:scaleType="fitCenter"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/prime_bell" />
+                app:srcCompat="@drawable/icon_tablero_campana" />
 
         </LinearLayout>
 
@@ -86,7 +86,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
-            android:background="@drawable/border"
+            android:background="@drawable/rounded_border_superior"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -115,7 +115,7 @@
                     android:layout_weight="2.6"
                     android:adjustViewBounds="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/robot1" />
+                    android:src="@drawable/img_robot1" />
             </LinearLayout>
 
             <Button
@@ -123,7 +123,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-30dp"
-                android:layout_marginRight="80dp"
+                android:layout_marginRight="70dp"
                 android:layout_marginBottom="10dp"
                 android:backgroundTint="@color/verde_oscuro"
                 android:paddingLeft="50dp"
@@ -157,7 +157,7 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:adjustViewBounds="true"
-                android:background="@drawable/puntos1"
+                android:background="@drawable/icon_tablero_puntos"
                 android:scaleType="centerCrop" />
 
             <View
@@ -172,7 +172,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:adjustViewBounds="true"
-                android:background="@drawable/reciclaje"
+                android:background="@drawable/icon_tablero_reciclaje"
                 android:scaleType="centerCrop" />
 
             <View
@@ -187,7 +187,7 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:adjustViewBounds="true"
-                android:background="@drawable/premios"
+                android:background="@drawable/icon_tablero_premios"
                 android:scaleType="centerCrop" />
         </LinearLayout>
 
@@ -275,7 +275,7 @@
                 android:adjustViewBounds="true"
                 android:background="#00FFFFFF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/caneca1" />
+                android:src="@drawable/icon_tablero_caneca" />
 
             <ImageButton
                 android:id="@+id/gota_agua1"
@@ -286,7 +286,7 @@
                 android:adjustViewBounds="true"
                 android:background="#00FFFFFF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/gota_agua1" />
+                android:src="@drawable/icon_tablero_gotaagua" />
 
             <ImageButton
                 android:id="@+id/bonbillo2"
@@ -295,7 +295,7 @@
                 android:adjustViewBounds="true"
                 android:background="#00FFFFFF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/bonbillo2" />
+                android:src="@drawable/icon_tablero_bonbillo" />
 
         </LinearLayout>
 
@@ -315,7 +315,7 @@
                 android:adjustViewBounds="true"
                 android:background="#00FFFFFF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/planeta1" />
+                android:src="@drawable/icon_tablero_planeta" />
 
             <ImageButton
                 android:id="@+id/industria1"
@@ -326,7 +326,7 @@
                 android:adjustViewBounds="true"
                 android:background="#00FFFFFF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/industria1" />
+                android:src="@drawable/icon_tablero_industria" />
 
             <ImageButton
                 android:id="@+id/casa1"
@@ -335,7 +335,7 @@
                 android:adjustViewBounds="true"
                 android:background="#00FFFFFF"
                 android:scaleType="centerCrop"
-                android:src="@drawable/casa1" />
+                android:src="@drawable/icon_tablero_casa" />
         </LinearLayout>
 
         <LinearLayout

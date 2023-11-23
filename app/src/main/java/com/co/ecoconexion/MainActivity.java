@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity  {
         // Aplicar desenfoque utilizando Glide Transformations
         Glide.with(this)
                 .asBitmap()
-                .load(R.drawable.img_bg5)
+                .load(R.drawable.img_bg2)
                 .transition(new GenericTransitionOptions<>().transition(android.R.anim.fade_in))
                 .transform(new BlurTransformation(13, 13))
                 .into(image);

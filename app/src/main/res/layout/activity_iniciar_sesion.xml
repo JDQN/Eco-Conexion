@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img_bg7" />
+        app:srcCompat="@drawable/img_bg4" />
 
     <ImageView
         android:id="@+id/ImgBlur"
@@ -26,7 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/blur" />
+        app:srcCompat="@drawable/img_blur1" />
 
     <TextView
         android:id="@+id/textView"
@@ -81,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
-                android:background="@drawable/rounded_green_border"
+                android:background="@drawable/rounded_border_verde"
                 android:ems="10"
                 android:hint="@string/correo_electronico"
                 android:padding="12dp"
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
-                android:background="@drawable/rounded_green_border"
+                android:background="@drawable/rounded_border_verde"
                 android:ems="10"
                 android:hint="@string/password"
                 android:inputType="textPassword"
@@ -201,7 +201,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/BtnRegistrar"
-                app:srcCompat="@drawable/facebook1" />
+                app:srcCompat="@drawable/icon_login_facebook" />
 
             <ImageButton
                 android:id="@+id/btnGoogle2"
@@ -215,7 +215,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/BtnRegistrar"
-                app:srcCompat="@drawable/google1" />
+                app:srcCompat="@drawable/icon_login_google" />
 
             <ImageButton
                 android:id="@+id/btnMac2"
@@ -227,7 +227,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/BtnRegistrar"
-                app:srcCompat="@drawable/manzana1" />
+                app:srcCompat="@drawable/icon_login_mac" />
         </LinearLayout>
 
         <Button
