@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivLogo"
         android:layout_width="300dp"
         android:layout_height="300dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
@@ -63,42 +63,42 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            app:fontWeight="700"
             android:backgroundTint="@color/gris_claro"
+            android:onClick="iniciarSesion"
             android:padding="11dp"
             android:text="@string/ingresar"
             android:textColor="#023316"
             android:textSize="20sp"
-            app:strokeColor="#023316"
-            android:onClick="iniciarSesion"/>
+            app:fontWeight="700"
+            app:strokeColor="@color/verde_oscuro" />
     </LinearLayout>
 
 
     <!-- Aqui tenemos los dos textos -->
     <TextView
-        android:id="@+id/crear_cuenta"
+        android:id="@+id/eco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="@string/eco"
         android:textColor="@color/verde_claro"
         android:textSize="50dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/bienvenido_ecoConexion"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginTop="20dp"/>
+        app:layout_constraintBottom_toTopOf="@+id/Conexion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/bienvenido_ecoConexion"
+        android:id="@+id/Conexion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/conexion"
         android:textColor="@color/verde_oscuro"
         android:textSize="50dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@+id/crear_cuenta"
+        app:layout_constraintTop_toBottomOf="@+id/eco"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

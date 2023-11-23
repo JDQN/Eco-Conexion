@@ -36,4 +36,9 @@ public class MainActivity extends AppCompatActivity  {
         Intent intent = new Intent(this, CrearCuentaActivity.class);
         startActivity(intent);
     }
+
+    public void iniciarSesion(View view){
+        Intent intent = new Intent(this, IniciarSesionActivity.class);
+        startActivity(intent);
+    }
 }

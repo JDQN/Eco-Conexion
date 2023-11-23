@@ -28,5 +28,17 @@
     <string name="google_button_description">Botón de Google</string>
     <string name="mac_button_description">Botón de Mac</string>
     <string name="ya_tienes_cuenta">¿Ya tienes una cuenta? Inicia sesion ahora</string>
+    <string name="aun_no_te_has_registrado">¿Aún no te has registrado? Crear una cuenta</string>
+    <string name="efecto_blur">Efecto blur</string>
+    <string name="amleia_renatata">Amelia Renata</string>
+    <string name="eco_info">Eco Info</string>
+
+    <!-- String de la pantalla de tablero -->
+    <string name="reciclaje">Reciclaje</string>
+    <string name="puntos">Puntos</string>
+    <string name="premios">Premios</string>
+    <string name="bienvenido_a">Bienvenido a</string>
+    <string name="eco_conexion">Eco Conexión</string>
+
 
 </resources>

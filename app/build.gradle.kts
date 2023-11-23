@@ -45,3 +45,13 @@ dependencies {
    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
 }
+
+buildscript {
+   repositories {
+      google()
+      mavenCentral()
+   }
+   dependencies {
+      classpath("com.android.tools.build:gradle:8.1.4")
+   }
+}
