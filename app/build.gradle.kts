@@ -44,6 +44,10 @@ dependencies {
    androidTestImplementation("androidx.test.ext:junit:1.1.5")
    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
+   implementation ("androidx.compose.material3:material3:1.0.1")
+   implementation ("androidx.compose.material3:material3-window-size-class:1.0.1")
+
+
 }
 
 buildscript {
